@@ -41,12 +41,13 @@ Spam-Detector/
 ├── app.py                 # Streamlit application
 ├── requirements.txt       # Project dependencies
 ├── README.md
+├── .gitignore             # gitignore file
 │
-├── model/
-│   ├── model.pkl          # Trained machine learning model
-│   └── tfid.pkl           # Trained TF-IDF vectorizer
-│
-└── notebooks/             # Model training notebooks (optional)
+└── model/
+    ├── model.pkl          # Trained machine learning model
+    ├── tfid.pkl           # Trained TF-IDF vectorizer
+    └── email_spam.ipynb   # Jupyter notebook
+             
 ```
 
 ---
@@ -101,8 +102,7 @@ Based on GridSearchCV and test evaluation:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
+git clone https://github.com/Madhubalakumar07/Spam-Detector.git
 ```
 
 ### Install dependencies
@@ -151,9 +151,9 @@ Spam Detection Output
 
 **Madhubalakumar S**
 
-GitHub: https://github.com/<your-github-username>
+GitHub: https://github.com/Madhubalakumar07
 
-LinkedIn: https://linkedin.com/in/<your-linkedin-profile>
+LinkedIn: www.linkedin.com/in/madhubalakumar-s-9a4b00329
 
 ---
 
